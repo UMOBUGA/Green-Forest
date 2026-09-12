@@ -1,6 +1,6 @@
-package com.danaama.ui;
+package com.greenforest.ui;
 
-import com.danaama.powerup.PowerUp;
+import com.greenforest.powerup.PowerUp;
 
 import java.awt.*;
 import java.awt.event.*;

@@ -1,4 +1,4 @@
-package com.danaama.entity;
+package com.greenforest.entity;
 
 import java.awt.*;
 

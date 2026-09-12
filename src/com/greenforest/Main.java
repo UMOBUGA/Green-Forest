@@ -1,4 +1,4 @@
-package com.danaama;
+package com.greenforest;
 
 import javax.swing.*;
 
@@ -9,7 +9,7 @@ public class Main {
             int width  = 1280;
             int height = 720;
 
-            JFrame frame = new JFrame("DANAAMA_");
+            JFrame frame = new JFrame("greenforest_");
             frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
             frame.setResizable(false);
 

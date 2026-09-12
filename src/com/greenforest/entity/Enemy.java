@@ -1,6 +1,6 @@
-package com.danaama.entity;
+package com.greenforest.entity;
 
-import com.danaama.DifficultySettings;
+import com.greenforest.DifficultySettings;
 import java.awt.*;
 
 public class Enemy extends Entity {

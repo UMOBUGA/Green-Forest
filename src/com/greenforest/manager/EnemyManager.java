@@ -1,8 +1,8 @@
-package com.danaama.manager;
+package com.greenforest.manager;
 
-import com.danaama.DifficultySettings;
-import com.danaama.entity.Enemy;
-import com.danaama.entity.Player;
+import com.greenforest.DifficultySettings;
+import com.greenforest.entity.Enemy;
+import com.greenforest.entity.Player;
 
 import java.awt.*;
 import java.util.ArrayList;

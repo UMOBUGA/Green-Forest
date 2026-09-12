@@ -1,17 +1,17 @@
-package com.danaama;
+package com.greenforest;
 
-import com.danaama.AttackType;
-import com.danaama.ScoreManager;
-import com.danaama.entity.Boss;
-import com.danaama.entity.Enemy;
-import com.danaama.entity.Player;
-import com.danaama.manager.BossManager;
-import com.danaama.manager.EnemyManager;
-import com.danaama.manager.ProjectileManager;
-import com.danaama.powerup.PowerUp;
-import com.danaama.ui.EducationalOverlay;
-import com.danaama.ui.HUD;
-import com.danaama.ui.PowerUpScreen;
+import com.greenforest.AttackType;
+import com.greenforest.ScoreManager;
+import com.greenforest.entity.Boss;
+import com.greenforest.entity.Enemy;
+import com.greenforest.entity.Player;
+import com.greenforest.manager.BossManager;
+import com.greenforest.manager.EnemyManager;
+import com.greenforest.manager.ProjectileManager;
+import com.greenforest.powerup.PowerUp;
+import com.greenforest.ui.EducationalOverlay;
+import com.greenforest.ui.HUD;
+import com.greenforest.ui.PowerUpScreen;
 
 import javax.swing.*;
 import java.awt.*;
@@ -1001,7 +1001,7 @@ public class GamePanel extends JPanel
 
         g2.setFont(new Font("Arial", Font.BOLD, 52));
         g2.setColor(new Color(80, 255, 80));
-        String title = "DANAAMA";
+        String title = "greenforest";
         FontMetrics fm = g2.getFontMetrics();
         g2.drawString(title, screenW / 2 - fm.stringWidth(title) / 2, 90);
 

@@ -1,10 +1,10 @@
-package com.danaama.ui;
+package com.greenforest.ui;
 
-import com.danaama.AttackType;
-import com.danaama.DifficultySettings;
-import com.danaama.ScoreManager;
-import com.danaama.entity.Player;
-import com.danaama.manager.EnemyManager;
+import com.greenforest.AttackType;
+import com.greenforest.DifficultySettings;
+import com.greenforest.ScoreManager;
+import com.greenforest.entity.Player;
+import com.greenforest.manager.EnemyManager;
 
 import java.awt.*;
 

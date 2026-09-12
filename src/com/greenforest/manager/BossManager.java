@@ -1,8 +1,8 @@
-package com.danaama.manager;
+package com.greenforest.manager;
 
-import com.danaama.DifficultySettings;
-import com.danaama.entity.Boss;
-import com.danaama.entity.Boss.BossType;
+import com.greenforest.DifficultySettings;
+import com.greenforest.entity.Boss;
+import com.greenforest.entity.Boss.BossType;
 import java.awt.*;
 
 public class BossManager {

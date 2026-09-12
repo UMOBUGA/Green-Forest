@@ -1,4 +1,4 @@
-package com.danaama;
+package com.greenforest;
 
 import java.io.*;
 import java.nio.file.*;
@@ -7,7 +7,7 @@ import java.nio.file.*;
 public class SaveData {
 
     private static final int VERSION = 1;
-    private static final String SAVE_FILE = "danaama_save.dat";
+    private static final String SAVE_FILE = "greenforest_save.dat";
 
     // Campos salvos
     public int   level;

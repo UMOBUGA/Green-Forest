@@ -1,4 +1,4 @@
-package com.danaama;
+package com.greenforest;
 
 public class DifficultySettings {
 

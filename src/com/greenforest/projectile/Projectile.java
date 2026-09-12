@@ -1,4 +1,4 @@
-package com.danaama.projectile;
+package com.greenforest.projectile;
 
 import java.awt.*;
 

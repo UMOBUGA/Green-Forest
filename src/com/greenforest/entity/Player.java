@@ -1,7 +1,7 @@
-package com.danaama.entity;
+package com.greenforest.entity;
 
-import com.danaama.AttackType;
-import com.danaama.powerup.PowerUp;
+import com.greenforest.AttackType;
+import com.greenforest.powerup.PowerUp;
 
 import java.awt.*;
 
@@ -410,10 +410,10 @@ public class Player extends Entity {
     public float getAimDirY()      { return aimDirY; }
     public boolean isInvincible()  { return iFrameTimer > 0f; }
 
-    public com.danaama.SaveData toSaveData(float gameTimeSec,
+    public com.greenforest.SaveData toSaveData(float gameTimeSec,
                                            int hordaNumber,
                                            int diffOrdinal) {
-        com.danaama.SaveData d = new com.danaama.SaveData();
+        com.greenforest.SaveData d = new com.greenforest.SaveData();
         d.level         = this.level;
         d.xp            = this.xp;
         d.xpToNextLevel = this.xpToNextLevel;
@@ -435,7 +435,7 @@ public class Player extends Entity {
         return d;
     }
 
-    public void loadFromSave(com.danaama.SaveData d) {
+    public void loadFromSave(com.greenforest.SaveData d) {
         this.level         = d.level;
         this.xp            = d.xp;
         this.xpToNextLevel = d.xpToNextLevel;

@@ -1,4 +1,4 @@
-package com.danaama;
+package com.greenforest;
 
 import java.io.*;
 import java.util.ArrayList;
@@ -10,7 +10,7 @@ public class ScoreManager {
 
     private static final String SCORE_FILE =
             System.getProperty("user.home") + File.separator
-                    + ".danaama_scores.dat";
+                    + ".greenforest_scores.dat";
 
     public static class ScoreEntry implements Serializable {
         private static final long serialVersionUID = 1L;

@@ -1,4 +1,4 @@
-package com.danaama;
+package com.greenforest;
 
 public enum GameState {
     TITLE,        // tela inicial

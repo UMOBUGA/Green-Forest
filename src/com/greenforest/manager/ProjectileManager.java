@@ -1,10 +1,10 @@
-package com.danaama.manager;
+package com.greenforest.manager;
 
-import com.danaama.AttackType;
-import com.danaama.entity.Boss;
-import com.danaama.entity.Enemy;
-import com.danaama.entity.Player;
-import com.danaama.projectile.Projectile;
+import com.greenforest.AttackType;
+import com.greenforest.entity.Boss;
+import com.greenforest.entity.Enemy;
+import com.greenforest.entity.Player;
+import com.greenforest.projectile.Projectile;
 
 import java.awt.*;
 import java.util.ArrayList;
